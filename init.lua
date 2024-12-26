@@ -34,3 +34,6 @@ require("lazy").setup({
 	install = { colorscheme = { "habamax" } },
 	checker = { enabled = true },
 })
+
+-- Clipboard
+vim.opt.clipboard = "unnamedplus"

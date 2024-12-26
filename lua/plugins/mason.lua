@@ -22,7 +22,8 @@ return {
 				"clangd",
 				"gopls",
 				"lua_ls",
-                "cssls"
+				"cssls",
+				"volar",
 			},
 			automatic_installation = true,
 		})
@@ -33,6 +34,8 @@ return {
 				"golines",
 				"prettier",
 				"stylua",
+				"ts-standard",
+				"shfmt",
 			},
 		})
 	end,
